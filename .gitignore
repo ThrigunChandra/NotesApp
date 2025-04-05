@@ -1,0 +1,22 @@
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Node modules backup (in case someone accidentally installs at root)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (if any)
+.env
+.env.*  # sometimes used for staging, prod, etc.
+
+# Editor/IDE config
+.vscode
